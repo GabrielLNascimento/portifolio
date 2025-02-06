@@ -1,0 +1,13 @@
+bibliotecas
+- tailwind css
+- lucide-react
+- react router dom
+
+pasta components
+* NavBar
+ - menu para as paginas do site
+
+pasta pages
+* home
+* projects
+* habilities
