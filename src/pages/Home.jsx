@@ -9,7 +9,7 @@ const Home = () => {
                             className="text-[35px] md:text-[45px] font-bold text-slate-500 shadow-md"
                             style={{ textShadow: "0px 0px 7px" }}
                         >
-                            FULLSTACK
+                            FRONTEND
                         </span>
                     </p>
 
