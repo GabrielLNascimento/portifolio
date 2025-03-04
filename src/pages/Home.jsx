@@ -4,12 +4,12 @@ const Home = () => {
             <div className="flex flex-col md:flex-row gap-10 justify-center w-screen items-center">
                 <div className="text-white w-[90%] md:w-[800px] h-auto md:h-[500px] flex flex-col justify-center text-center md:text-left">
                     <p className="text-[35px] md:text-[45px] font-bold">
-                        DESENVOLVEDOR{" "}
+                        DESENVOLVEDOR{' '}
                         <span
                             className="text-[35px] md:text-[45px] font-bold text-slate-500 shadow-md"
-                            style={{ textShadow: "0px 0px 7px" }}
+                            style={{ textShadow: '0px 0px 7px' }}
                         >
-                            FRONTEND
+                            FULLSTACK
                         </span>
                     </p>
 
@@ -21,8 +21,12 @@ const Home = () => {
                     </p>
                 </div>
 
-                <div className="text-white w-[90%] md:w-[500px] h-[300px] md:h-[500px] border border-red-100 flex justify-center items-center">
-                    imagem
+                <div className="text-white w-[80%] md:w-[300px] h-[300px] md:h-[300px] border border-red-100 flex justify-center items-center overflow-hidden">
+                    <img
+                        src="/assets/img/perfil.jpeg"
+                        alt="Imagem de perfil"
+                        className="w-full h-full object-cover"
+                    />
                 </div>
             </div>
         </div>

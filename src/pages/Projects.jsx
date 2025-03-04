@@ -4,10 +4,24 @@ import convertImage from '/assets/img/conversorMoedas.png';
 import gerenciadorImage from '/assets/img/gerenciadortarefas.png';
 import roychange from '/assets/img/roychange.png';
 import quiz from '/assets/img/quiz.png';
+import jogovelha from '/assets/img/jogo-velha.png';
+import lizShops from '/assets/img/liz-shops.png';
+import chatreal from '/assets/img/chat-real.png';
 
 const Projects = () => {
     return (
         <div className="projects-container container">
+            <a href="https://liz-shops.vercel.app/" target="_blank">
+                <div className="project-item">
+                    <span className="project-title">Liz`s Shops</span>
+                    <img
+                        src={lizShops}
+                        alt="Liz's Shops"
+                        className="project-img"
+                    />
+                </div>
+            </a>
+
             <a
                 href="https://gabriellnascimento.github.io/clock/"
                 target="_blank"
@@ -15,6 +29,30 @@ const Projects = () => {
                 <div className="project-item">
                     <span className="project-title">Relógio</span>
                     <img src={clockImage} alt="Clock" className="project-img" />
+                </div>
+            </a>
+
+            <a href="https://jogo-velha-rh2b.vercel.app/" target="_blank">
+                <div className="project-item">
+                    <span className="project-title">
+                        Jogo da Velha - Online
+                    </span>
+                    <img
+                        src={jogovelha}
+                        alt="jogo da velha"
+                        className="project-img"
+                    />
+                </div>
+            </a>
+
+            <a href="https://chat-real-time-delta.vercel.app/" target="_blank">
+                <div className="project-item">
+                    <span className="project-title">Chat em tempo real</span>
+                    <img
+                        src={chatreal}
+                        alt="chat em tempo real"
+                        className="project-img"
+                    />
                 </div>
             </a>
 
