@@ -2,7 +2,7 @@ import './css/Projects.css'; // Importando o arquivo CSS
 import clockImage from '/assets/img/clock.png';
 import convertImage from '/assets/img/conversorMoedas.png';
 import gerenciadorImage from '/assets/img/gerenciadortarefas.png';
-import roychange from '/assets/img/roychange.png';
+import geradorcpf from '/assets/img/geradorcpf.png'
 import quiz from '/assets/img/quiz.png';
 import jogovelha from '/assets/img/jogo-velha.png';
 import lizShops from '/assets/img/liz-shops.png';
@@ -86,12 +86,12 @@ const Projects = () => {
                 </div>
             </a>
 
-            <a href="https://roychange.onrender.com/" target="_blank">
+            <a href="https://gerador-cpf-delta.vercel.app/" target="_blank">
                 <div className="project-item">
-                    <span className="project-title">Roy Change</span>
+                    <span className="project-title">Generator</span>
                     <img
-                        src={roychange}
-                        alt="Roy Change"
+                        src={geradorcpf}
+                        alt="Gerador de CPF"
                         className="project-img"
                     />
                 </div>
