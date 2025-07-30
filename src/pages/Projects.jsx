@@ -2,11 +2,13 @@ import './css/Projects.css'; // Importando o arquivo CSS
 import clockImage from '/assets/img/clock.png';
 import convertImage from '/assets/img/conversorMoedas.png';
 import gerenciadorImage from '/assets/img/gerenciadortarefas.png';
-import geradorcpf from '/assets/img/geradorcpf.png'
+import geradorcpf from '/assets/img/geradorcpf.png';
 import quiz from '/assets/img/quiz.png';
 import jogovelha from '/assets/img/jogo-velha.png';
 import lizShops from '/assets/img/liz-shops.png';
 import chatreal from '/assets/img/chat-real.png';
+import geradorsenha from '/assets/img/geradorsenha.png';
+import rangehotels from '/assets/img/range-hotels.png';
 
 const Projects = () => {
     return (
@@ -101,6 +103,31 @@ const Projects = () => {
                 <div className="project-item">
                     <span className="project-title">Quiz</span>
                     <img src={quiz} alt="quiz" className="project-img" />
+                </div>
+            </a>
+
+            <a href="https://gerador-senhas-omega.vercel.app/" target="_blank">
+                <div className="project-item">
+                    <span className="project-title">Generator Password</span>
+                    <img
+                        src={geradorsenha}
+                        alt="gerador de senha"
+                        className="project-img"
+                    />
+                </div>
+            </a>
+
+            <a
+                href="https://gabriellnascimento.github.io/angels-hotels/index.html"
+                target="_blank"
+            >
+                <div className="project-item">
+                    <span className="project-title">Angels Hotels</span>
+                    <img
+                        src={rangehotels}
+                        alt="angels hotels"
+                        className="project-img"
+                    />
                 </div>
             </a>
         </div>
