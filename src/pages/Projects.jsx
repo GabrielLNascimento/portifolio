@@ -9,6 +9,7 @@ import lizShops from '/assets/img/liz-shops.png';
 import chatreal from '/assets/img/chat-real.png';
 import geradorsenha from '/assets/img/geradorsenha.png';
 import rangehotels from '/assets/img/range-hotels.png';
+import calculadora from '/assets/img/calculadora.png';
 
 const Projects = () => {
     return (
@@ -126,6 +127,20 @@ const Projects = () => {
                     <img
                         src={rangehotels}
                         alt="angels hotels"
+                        className="project-img"
+                    />
+                </div>
+            </a>
+
+            <a
+                href="https://calculadora-seven-weld.vercel.app/"
+                target="_blank"
+            >
+                <div className="project-item">
+                    <span className="project-title">Calculadora</span>
+                    <img
+                        src={calculadora}
+                        alt="calculadora"
                         className="project-img"
                     />
                 </div>
