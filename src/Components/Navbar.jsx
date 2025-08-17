@@ -10,7 +10,6 @@ const Navbar = () => {
 
     return (
         <nav className="w-screen h-auto p-3 text-white flex flex-col lg:flex-row justify-center items-center bg-slate-950 relative">
-            
             <Link
                 to="/"
                 className="px-4 py-2 rounded-xl transition duration-500 min-w-[300px] text-center"
@@ -27,7 +26,6 @@ const Navbar = () => {
                 </p>
             </Link>
 
-           
             <div className="lg:hidden absolute right-5 top-4">
                 <button
                     onClick={toggleMenu}
@@ -37,7 +35,6 @@ const Navbar = () => {
                 </button>
             </div>
 
-           
             <div
                 className={`flex flex-col lg:flex-row gap-6 text-[20px] items-center justify-center 
                 absolute lg:static top-full left-0 bg-slate-950 w-full lg:w-auto py-4 lg:py-0 z-10 
@@ -62,10 +59,12 @@ const Navbar = () => {
                     Projetos
                 </Link>
 
-               
-                <button className="px-4 py-2 rounded-xl cursor-pointer transition duration-500 hover:bg-slate-200 hover:text-slate-950">
+                <Link
+                    to="https://wa.me/5547991015245"
+                    className="px-4 py-2 rounded-xl cursor-pointer transition duration-500 hover:bg-slate-200 hover:text-slate-950"
+                >
                     Contato
-                </button>
+                </Link>
             </div>
         </nav>
     );
