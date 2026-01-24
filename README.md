@@ -1,8 +1,37 @@
-# React + Vite
+# 💼 Portfólio - Gabriel Nascimento
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu **portfólio pessoal**, desenvolvido para apresentar meus projetos, habilidades e experiência como **Desenvolvedor Front-end**.  
+O site reúne meus principais trabalhos, tecnologias que utilizo e formas de contato.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Acesse o Portfólio
+
+👉 **https://portifolio-gamma-drab.vercel.app/**
+
+---
+
+## ⚙️ Tecnologias Utilizadas
+
+- React.js
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vercel (deploy)
+- Git & GitHub
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+📁 portfolio
+ ┣ 📁 src
+ ┃ ┣ 📁 components
+ ┃ ┣ 📁 pages
+ ┃ ┣ 📁 assets
+ ┃ ┣ 📄 App.jsx
+ ┃ ┗ 📄 main.jsx
+ ┣ 📁 public
+ ┣ 📄 package.json
+ ┣ 📄 README.md
