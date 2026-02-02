@@ -4,12 +4,11 @@ import convertImage from "/assets/img/conversorMoedas.png";
 import gerenciadorImage from "/assets/img/gerenciadortarefas.png";
 import geradorcpf from "/assets/img/geradorcpf.png";
 import quiz from "/assets/img/quiz.png";
-import jogovelha from "/assets/img/jogo-velha.png";
 import lizShops from "/assets/img/liz-shops.png";
-import chatreal from "/assets/img/chat-real.png";
 import geradorsenha from "/assets/img/geradorsenha.png";
 import rangehotels from "/assets/img/range-hotels.png";
 import calculadora from "/assets/img/calculadora.png";
+import impostorGame from "/assets/img/impostor-game.png"
 
 // components
 import Card from "../Components/Card";
@@ -23,19 +22,14 @@ const Projects = () => {
                 image={lizShops}
             />
             <Card
+                link={"https://impostor-game-plum.vercel.app/"}
+                title={"Impostor Game"}
+                image={impostorGame}
+            />
+            <Card
                 link={"https://gabriellnascimento.github.io/clock/"}
                 title={"Relógio"}
                 image={clockImage}
-            />
-            <Card
-                link={"https://jogo-velha-rh2b.vercel.app/"}
-                title={"Jogo da Velha - Online"}
-                image={jogovelha}
-            />
-            <Card
-                link={"https://chat-real-time-delta.vercel.app/"}
-                title={"Chat em tempo real"}
-                image={chatreal}
             />
             <Card
                 link={"https://gabriellnascimento.github.io/conversor_moedas/"}
